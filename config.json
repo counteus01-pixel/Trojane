@@ -1,0 +1,26 @@
+{
+  "inbounds": [
+    {
+      "port": 8080
+      "protocol": "trojan"
+      "settings": {
+        "clients": [
+          {
+            "password": "ARBI_GANDEUZ",
+            "level": 0
+          }
+        ]
+      },
+      "streamSettings": {
+        " ntwork": "ws",
+        "wsSettings": {
+          "path": "/arbi"
+        }
+      }
+    }
+  ],
+  "protocol": "freedom"
+  "settings": {}
+}
+]
+}
