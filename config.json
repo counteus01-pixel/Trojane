@@ -1,8 +1,8 @@
 {
   "inbounds": [
     {
-      "port": 8080
-      "protocol": "trojan"
+      "port": 8080,
+      "protocol": "trojan",
       "settings": {
         "clients": [
           {
@@ -12,14 +12,17 @@
         ]
       },
       "streamSettings": {
-        " ntwork": "ws",
+        "network": "ws",
         "wsSettings": {
           "path": "/arbi"
         }
       }
     }
   ],
-  "protocol": "freedom"
-  "settings": {}
-  }
- 
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
